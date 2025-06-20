@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height:100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    padding:40px;
+    border-radius: 20px;
+}
+
+.amount-input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+    padding-block-start: 40px;
+}
+
+.input-value{
+    border:solid 2px slategrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.opt-currency{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.output-btn{
+    width:100%;
+}
+
+.exchange-img{
+    width: 40px;
+}

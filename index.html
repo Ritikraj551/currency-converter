@@ -9,34 +9,49 @@
 <body>
     <div class="background">
 
-        <div class="container">
-            <h1>Currency Converter</h1>
-            <div class="amount-input">
-                Enter Amount
-                <input class="input-value" type="number">
-            </div>
-            <div class="opt-currency">
-                <div>
-                    <p>From</p>
-                    <select name="USD" id=""><img src="" alt="">USD</select>
+        <form>
+            <div class="container">
+                <h1 class="heading">Currency Converter</h1>
+                <div class="amount-input">
+                    Enter Amount
+                    <input class="input-value" type="text">
                 </div>
-                <div>
-                    <img src="./images/exchange.png" alt="" class="exchange-img">
+                <div class="dropdown">
+                    <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                    <div>
+                        <p>From</p>
+                        <select name="from" id="">
+                            <option value="USD" selected>USD</option>
+                            <option value="INR">INR</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
+                    <div>
+                        <img src="./images/exchange.svg" alt="" class="exchange-img">
+                    </div>
+                    <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                    <div>
+                        <p>To</p>
+                        <select name="to" id="">
+                            <option value="USD">USD</option>
+                            <option value="INR" selected>INR</option>
+                            <option value="AUD">AUD</option>
+                        </select>
+                    </div>
                 </div>
-                <div>
-                    <p>To</p>
-                    <select name="AUD" id=""><img src="" alt=""></select>
+                <div class="output-info">
+                    <p id="output">1USD = 0.85INR</p>
+                </div>
+                <div class="output">
+                    <button class="output-btn">Get Exchange Rate</button>
                 </div>
             </div>
-            <div>
-                <p id="output"></p>
-            </div>
-            <div class="output">
-                <button class="output-btn">Get Exchange Rate</button>
-            </div>
-        </div>
+        </form>
 
     </div>
+
+    <script src="code.js"></script>
+    <script src="app.js"></script>
     
 </body>
 </html>

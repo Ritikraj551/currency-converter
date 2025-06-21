@@ -11,12 +11,24 @@
     height:100vh;
 }
 
+.heading{
+    text-align: center;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    padding:40px;
     border-radius: 20px;
+    padding: 40px;
+    box-shadow: 12px 12px 10px burlywood;
+}
+
+form select{
+    border: none;
+    padding:5px;
+    border-radius: 1rem;
+    outline: none;
 }
 
 .amount-input{
@@ -32,24 +44,49 @@
     padding: 10px;
 }
 
-.opt-currency{
+.dropdown{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0 10px 0;
+    gap: 1.5rem;
 }
 
-.output{
+.output-info{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-bottom: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 
 .output-btn{
-    width:100%;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 4px 6px 4px 6px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(127, 255, 212);
+    border-bottom:solid 4px rgb(73, 203, 160);
+    box-shadow: 4px 6px 10px;
+}
+
+.output-btn:hover{
+    width: 100%;
+    padding: 4px 6px 4px 6px;
+    border-radius: 10px;
+    border: none;
+    border-top:solid 4px rgb(73, 203, 160);
+    border-bottom: 0;           
+    background-color:rgb(73, 203, 160);
+    box-shadow: 4px 6px 5px;
+    transition-duration:200ms;
+    cursor: pointer;
 }
 
 .exchange-img{
-    width: 40px;
+    width: 30px;
+    padding: 0 40px 0 40px ;
 }

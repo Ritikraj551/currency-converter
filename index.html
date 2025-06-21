@@ -1,55 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="background">
-
-        <form>
-            <div class="container">
-                <h1 class="heading">Currency Converter</h1>
-                <div class="amount-input">
-                    Enter Amount
-                    <input class="input-value" type="text">
-                </div>
-                <div class="dropdown-container">
-                    <div class="from">
-                        <p>From</p>
-                        <div class="select-container">
-                            <img src="https://flagsapi.com/US/flat/64.png" alt="">
-                            <select name="from">
-                            </select>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="./images/exchange.svg" alt="" class="exchange-img">
-                    </div>
-                    <div class="to">
-                        <p>To</p>
-                        <div class="select-container">
-                            <img src="https://flagsapi.com/IN/flat/64.png" alt="">
-                            <select name="to">
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="output-info">
-                    <p id="output">1USD = 0.85INR</p>
-                </div>
-                <div class="output">
-                    <button class="output-btn">Get Exchange Rate</button>
-                </div>
+      <form>
+        <div class="container">
+          <h1 class="heading">Currency Converter</h1>
+          <div class="amount-input">
+            Enter Amount
+            <input class="input-value" value="1" type="text" />
+          </div>
+          <div class="dropdown-container">
+            <div class="from">
+              <p>From</p>
+              <div class="select-container">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="" />
+                <select name="from"></select>
+              </div>
             </div>
-        </form>
-
+            <div>
+              <img src="./images/exchange.svg" alt="" class="exchange-img" />
+            </div>
+            <div class="to">
+              <p>To</p>
+              <div class="select-container">
+                <img src="https://flagsapi.com/IN/flat/64.png" alt="" />
+                <select name="to"></select>
+              </div>
+            </div>
+          </div>
+          <div class="output-info">
+            <p id="output"></p>
+          </div>
+          <div class="output">
+            <button class="output-btn">Get Exchange Rate</button>
+          </div>
+        </div>
+      </form>
     </div>
 
     <script src="code.js"></script>
     <script src="app.js"></script>
-    
-</body>
+  </body>
 </html>

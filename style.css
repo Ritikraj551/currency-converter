@@ -1,105 +1,107 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.background{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: bisque;
-    height:100vh;
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  height: 100vh;
 }
 
-.heading{
-    text-align: center;
+.heading {
+  text-align: center;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: aliceblue;
-    border-radius: 20px;
-    padding: 40px;
-    box-shadow: 12px 12px 10px burlywood;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 12px 12px 10px burlywood;
 }
 
-form select{
-    border: none;
-    padding:5px;
-    border-radius: 1rem;
-    outline: none;
-    background-color: rgb(246, 216, 183);
+form select {
+  border: none;
+  padding: 5px;
+  border-radius: 1rem;
+  outline: none;
+  background-color: rgb(246, 216, 183);
 }
 
-.amount-input{
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0 10px 0;
-    padding-block-start: 40px;
+.amount-input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 0;
+  padding-block-start: 40px;
 }
 
-.input-value{
-    border:solid 2px slategrey;
-    border-radius: 10px;
-    padding: 10px;
+.input-value {
+  border: solid 2px slategrey;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.dropdown-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    margin: 50px 0 10px 0;
-    gap: 1.5rem;
+.dropdown-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 50px 0 10px 0;
+  gap: 1.5rem;
 }
 
-.select-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    background-color: rgb(246, 216, 183);
-    padding: 0px 5px 0px 5px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 12px rgb(246, 179, 107);
-    border: solid 1px slategrey;
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(246, 216, 183);
+  padding: 0px 5px 0px 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 12px rgb(246, 179, 107);
+  border: solid 1px slategrey;
 }
 
-.output-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+.output-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 40px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
-.output-btn{
-    width: 100%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 4px 6px 4px 6px;
-    border-radius: 10px;
-    border: none;
-    background-color: rgb(127, 255, 212);
-    border-bottom:solid 4px rgb(73, 203, 160);
-    box-shadow: 4px 6px 10px;
+.output-btn {
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 4px 6px 4px 6px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(127, 255, 212);
+  border-bottom: solid 4px rgb(73, 203, 160);
+  box-shadow: 4px 6px 10px;
 }
 
-.output-btn:hover{
-    width: 100%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 4px 6px 4px 6px;
-    border-radius: 10px;
-    border: none;
-    border-top:solid 4px rgb(73, 203, 160);
-    border-bottom: 0;           
-    background-color:rgb(73, 203, 160);
-    box-shadow: 4px 6px 5px;
-    cursor: pointer;
+.output-btn:hover {
+  width: 100%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 4px 6px 4px 6px;
+  border-radius: 10px;
+  border: none;
+  border-top: solid 4px rgb(73, 203, 160);
+  border-bottom: 0;
+  background-color: rgb(73, 203, 160);
+  box-shadow: 4px 6px 5px;
+  cursor: pointer;
 }
 
-.exchange-img{
-    width: 30px;
-    padding: 0 40px 0 40px ;
+.exchange-img {
+  width: 30px;
+  padding: 0 40px 0 40px;
 }

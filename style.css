@@ -29,6 +29,7 @@ form select{
     padding:5px;
     border-radius: 1rem;
     outline: none;
+    background-color: rgb(246, 216, 183);
 }
 
 .amount-input{
@@ -44,13 +45,25 @@ form select{
     padding: 10px;
 }
 
-.dropdown{
+.dropdown-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     margin: 50px 0 10px 0;
     gap: 1.5rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    background-color: rgb(246, 216, 183);
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px rgb(246, 179, 107);
+    border: solid 1px slategrey;
 }
 
 .output-info{
@@ -75,6 +88,7 @@ form select{
 
 .output-btn:hover{
     width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 4px 6px 4px 6px;
     border-radius: 10px;
     border: none;
@@ -82,7 +96,6 @@ form select{
     border-bottom: 0;           
     background-color:rgb(73, 203, 160);
     box-shadow: 4px 6px 5px;
-    transition-duration:200ms;
     cursor: pointer;
 }
 
